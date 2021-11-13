@@ -1,0 +1,21 @@
+img,gummy,golden_proportion ,gap,crowding,incisal embrassure ,color,Central line,gum tissue health,Crooked,Central Incisor W/H Ratio,Black triangle,perfect,labels
+15011-a,0,1.0,0,0.0,,1.0,,0.0,,,0,0,"golden_proportion ,color"
+15012-a,0,0.0,0,0.0,,1.0,,0.0,,,0,0,color
+15013-a,0,0.0,0,0.0,,1.0,,0.0,,,0,0,color
+13009-b,0,1.0,0,,,1.0,,1.0,,,0,0,"golden_proportion ,color,gum tissue health"
+13010-b,0,1.0,1,,,1.0,,1.0,,,0,0,"golden_proportion ,gap,color,gum tissue health"
+13013-b,0,1.0,0,,,1.0,,1.0,,,0,0,"golden_proportion ,color,gum tissue health"
+13014-b,0,1.0,0,,,1.0,,1.0,,,0,0,"golden_proportion ,color,gum tissue health"
+13015-b,0,1.0,0,0.0,,1.0,,1.0,1.0,1.0,0,0,"golden_proportion ,color,gum tissue health,Crooked,Central Incisor W/H Ratio"
+13018-b,0,1.0,0,,,1.0,,1.0,,,0,0,"golden_proportion ,color,gum tissue health"
+13007-a,0,1.0,0,0.0,,1.0,,0.0,,,0,0,"golden_proportion ,color"
+13008-a,0,0.0,0,0.0,,0.0,,0.0,,,0,0,
+13009-a,0,0.0,0,,,1.0,,0.0,,,0,0,color
+13010-a,0,1.0,0,,,1.0,,0.0,,,0,0,"golden_proportion ,color"
+13011-a,0,0.0,0,,,0.0,,0.0,,,0,0,
+13013-a,0,0.0,0,,,0.0,,0.0,,,0,0,
+13014-a,0,0.0,0,,,0.0,,0.0,,,0,0,
+13015-a,0,0.0,0,0.0,,0.0,,0.0,0.0,0.0,0,0,
+13016-a,0,0.0,0,,,0.0,,0.0,,,0,0,
+13017-a,0,0.0,0,,,0.0,,0.0,,,0,0,
+13018-a,0,0.0,0,,,0.0,,0.0,,,0,0,
