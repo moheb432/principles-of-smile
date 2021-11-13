@@ -1,20 +1,20 @@
 img,gummy,golden_proportion ,gap,crowding,incisal embrassure ,color,Central line,gum tissue health,Crooked,Central Incisor W/H Ratio,Black triangle,perfect,labels
-9007_A,0,0.0,0,0.0,,0.0,,0.0,,,0,0,
-9008_A,0,0.0,0,0.0,,0.0,,0.0,,,0,0,
-9009_A,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-9010_A,0,1.0,0,0.0,,1.0,,0.0,,,0,0,"golden_proportion ,color"
-9011_A,0,1.0,0,0.0,,0.0,,0.0,,,0,0,golden_proportion 
-9012_A,0,0.0,0,0.0,,0.0,,0.0,,,0,0,
-15001-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15002-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15005-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15007-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15009-b,0,1.0,0,1.0,,0.0,,0.0,,,0,0,"golden_proportion ,crowding"
-15011-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15012-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15013-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"golden_proportion ,crowding,color"
-15001-a,0,1.0,0,0.0,,1.0,,0.0,,,0,0,"golden_proportion ,color"
-15002-a,0,1.0,0,0.0,,1.0,,0.0,,,0,0,"golden_proportion ,color"
-15007-a,0,0.0,0,0.0,,1.0,,0.0,,,0,0,color
-15009-a,0,0.0,0,0.0,,0.0,,0.0,,,0,0,
-15010-a,1,0.0,0,0.0,,1.0,,0.0,,,0,0,"gummy,color"
+8011_A,1,1.0,0,0.0,,0.0,,0.0,,,0,0,"['gummy', 'golden_proportion ']"
+15013-b,0,1.0,0,1.0,,1.0,,0.0,,,0,0,"['golden_proportion ', 'crowding', 'color']"
+52005_B,0,1.0,0,,,1.0,,,1.0,0.0,0,0,"['golden_proportion ', 'color', 'Crooked']"
+52003_B,0,1.0,1,0.0,0.0,0.0,,0.0,1.0,1.0,0,0,"['golden_proportion ', 'gap', 'Crooked', 'Central Incisor W/H Ratio']"
+13010-b,0,1.0,1,,,1.0,,1.0,,,0,0,"['golden_proportion ', 'gap', 'color', 'gum tissue health']"
+13013-b,0,1.0,0,,,1.0,,1.0,,,0,0,"['golden_proportion ', 'color', 'gum tissue health']"
+9009_B,1,0.0,0,0.0,,1.0,,0.0,,,0,0,"['gummy', 'color']"
+8001_A,0,0.0,0,0.0,,0.0,0.0,0.0,0.0,0.0,0,0,['']
+8012_B,0,1.0,1,0.0,,0.0,1.0,0.0,,,0,0,"['golden_proportion ', 'gap', 'Central line']"
+13016-a,0,0.0,0,,,0.0,,0.0,,,0,0,['']
+41016_B,0,0.0,0,,,0.0,,,0.0,1.0,0,0,['Central Incisor W/H Ratio']
+8006_A,0,0.0,0,0.0,,0.0,0.0,0.0,,0.0,0,0,['']
+9006_B,1,0.0,0,0.0,,0.0,,0.0,,,0,0,['gummy']
+8005_A,0,0.0,0,0.0,,0.0,1.0,0.0,0.0,0.0,0,0,['Central line']
+18007,0,0.0,1,0.0,,0.0,,0.0,,,1,0,"['gap', 'Black triangle']"
+9001_B,1,0.0,0,0.0,,0.0,,0.0,,,0,0,['gummy']
+17006-a,0,0.0,0,0.0,,0.0,,0.0,,,0,0,['']
+41007_A,0,0.0,0,,,0.0,,,0.0,0.0,0,0,['']
+41018_A,0,0.0,0,,,0.0,,,0.0,0.0,0,0,['']
