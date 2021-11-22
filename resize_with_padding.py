@@ -29,17 +29,20 @@ def resize_image(img, size=(224, 224)):
     return cv2.resize(mask, size, interpolation)
 
 
-# images_path = "./smile_dataset"
-# out_path = "./resized_smile_dataset"
+images_path = "./smile_dataset"
+out_path = "./resized_smile_dataset"
 
 
-images_path = "./cropped_teeth"
-out_path = "./resized_cropped_teeth"
+# images_path = "./cropped_teeth"
+# out_path = "./resized_cropped_teeth"
 
 for f in glob.glob(os.path.join(images_path, "*")):
+    # print("Processing file: {}".format(f))
     img = cv2.imread(f)
     resized_img = resize_image(img)
 
     filename = os.path.splitext(os.path.basename(f))[0]
+    extension = os.path.splitext(os.path.basename(f))[1]
+    # print(filename + extension)
 
-    cv2.imwrite(out_path+"/"+filename+'.jpg',resized_img)
+    cv2.imwrite(out_path+"/"+filename+extension,resized_img)
