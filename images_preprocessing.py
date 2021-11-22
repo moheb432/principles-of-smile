@@ -22,7 +22,7 @@ def show_landmarks(landmarks ,image):
     # Display the landmarks
     for i, (x, y) in enumerate(landmarks):
     # Draw the circle to mark the keypoint 
-        cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
+        cv2.circle(image, (x, y), 1.5, (0, 0, 255), -1)
     
     # Display the image
     cv2.imshow('Landmark Detection', image)
@@ -92,7 +92,7 @@ def extract_mouth(predictor_path,dataset_path):
 
             # cv2.imwrite("faces/"+filename+'.jpg',crop_image)
             
-            #show_landmarks(landmarks=landmarks,image=img)
+            show_landmarks(landmarks=landmarks,image=img)
 
             #cv2.destroyAllWindows()
             #win.add_overlay(shape)
