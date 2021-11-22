@@ -59,7 +59,7 @@ img,gummy,golden_proportion ,gap,crowding,incisal embrassure ,color,Central line
 4010-b,0,1,0,1,0,1,0,0,0,1,0,0,"['golden_proportion ', 'crowding', 'color', 'Central Incisor W/H Ratio']"
 4011-b,0,1,0,0,1,1,0,0,0,1,0,0,"['golden_proportion ', 'Incisal\nEmbrasure', 'color', 'Central Incisor W/H Ratio']"
 4012-b,1,0,0,0,0,1,1,0,0,1,1,0,"['gummy', 'color', 'Central line', 'Central Incisor W/H Ratio', 'Black triangle']"
-4001-a,1,0,0,0,0,0,0,0,0,0,0,0,['gummy']
+4001-a,0,0,0,0,0,0,0,0,0,0,0,0,['gummy']
 4002-a,0,0,0,0,0,0,0,0,0,1,0,0,['Central Incisor W/H Ratio']
 4003-a,0,0,0,0,0,0,0,0,0,1,0,0,['Central Incisor W/H Ratio']
 4004-a,0,1,0,0,1,1,1,0,0,1,0,0,"['golden_proportion ', 'Incisal\nEmbrasure', 'color', 'Central line', 'Central Incisor W/H Ratio']"
