@@ -68,6 +68,10 @@ def extract_mouth(predictor_path,dataset_path):
             # mouth
             xmouthpoints = [landmarks.part(x).x for x in range(48,67)]
             ymouthpoints = [landmarks.part(x).y for x in range(48,67)]
+
+            # face
+            xmouthpoints = [landmarks.part(x).x for x in range(0,67)]
+            ymouthpoints = [landmarks.part(x).y for x in range(0,67)]
             
             maxx = max(xmouthpoints)
             minx = min(xmouthpoints)
@@ -85,6 +89,8 @@ def extract_mouth(predictor_path,dataset_path):
             
             # save cropped images in cropped
             cv2.imwrite("cropped_teeth/"+filename+'.jpg',crop_image)
+
+            # cv2.imwrite("faces/"+filename+'.jpg',crop_image)
             
             #show_landmarks(landmarks=landmarks,image=img)
 
