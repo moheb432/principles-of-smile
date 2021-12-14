@@ -22,7 +22,7 @@ def show_landmarks(landmarks ,image):
     # Display the landmarks
     for i, (x, y) in enumerate(landmarks):
     # Draw the circle to mark the keypoint 
-        cv2.circle(image, (x, y), 2, (0, 0, 255), -1)
+        cv2.circle(image, (x, y), 1, (0, 0, 255), -1)
     
     # Display the image
     cv2.imshow('Landmark Detection', image)
@@ -69,9 +69,9 @@ def extract_mouth(predictor_path,dataset_path):
             xmouthpoints = [landmarks.part(x).x for x in range(48,67)]
             ymouthpoints = [landmarks.part(x).y for x in range(48,67)]
 
-            # face
-            #xmouthpoints = [landmarks.part(x).x for x in range(0,67)]
-            #ymouthpoints = [landmarks.part(x).y for x in range(0,67)]
+            # # face
+            # xmouthpoints = [landmarks.part(x).x for x in range(0,67)]
+            # ymouthpoints = [landmarks.part(x).y for x in range(0,67)]
             
             maxx = max(xmouthpoints)
             minx = min(xmouthpoints)
@@ -88,7 +88,7 @@ def extract_mouth(predictor_path,dataset_path):
             #cv2.imshow('mouth',crop_image)
             
             # save cropped images in cropped
-            cv2.imwrite("cropped_teeth/"+filename+'.jpg',crop_image)
+            cv2.imwrite("cropped_teethh/"+filename+'.jpg',crop_image)
 
             # cv2.imwrite("faces/"+filename+'.jpg',crop_image)
             
@@ -99,7 +99,7 @@ def extract_mouth(predictor_path,dataset_path):
 
 if __name__=='__main__':
     predictor_path = "shape_predictor_68_face_landmarks.dat"
-    faces_folder_path = "smile_dataset"
+    faces_folder_path = "all_teeth"
     extract_mouth(predictor_path=predictor_path,dataset_path = faces_folder_path)
 
 
