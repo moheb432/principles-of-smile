@@ -29,9 +29,8 @@ def resize_image(img, size=(224, 224)):
     return cv2.resize(mask, size, interpolation)
 
 
-images_path = "./all_teeth/teeth/train"
-out_path = "./all_teeth/teeth_padded/train"
-
+images_path = "./all_teeth/teeth/augmented/test"
+out_path = "./all_teeth/teeth_padded/test"
 
 # images_path = "./cropped_teeth"
 # out_path = "./resized_cropped_teeth"
