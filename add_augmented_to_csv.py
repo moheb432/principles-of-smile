@@ -6,15 +6,15 @@ import re
 from csv import writer
 
 
-df = pd.read_csv('dataset_5_classes.csv', index_col= None)
+df = pd.read_csv('dataset_and_augmented.csv', index_col= None)
 df = df.set_index('img')
 
 
 regExp = '\(([^)]+)\)'
 
-# images_path = "./all_teeth/teeth/augmented/train"
-images_path = "./all_teeth/teeth/augmented/test"
-# images_path = "./all_teeth/teeth/augmented/valid"
+# images_path = "./all_teeth/teeth/augmented/train2"
+images_path = "./all_teeth/teeth/augmented/test2"
+# images_path = "./all_teeth/teeth/augmented/valid2"
 for f in glob.glob(os.path.join(images_path, "*")):
     # print("Processing file: {}".format(f))
     img = cv2.imread(f)
@@ -29,7 +29,7 @@ for f in glob.glob(os.path.join(images_path, "*")):
     for i in labels:
         list_data.append(i)
     
-    with open('aug_data.csv', 'a', newline='') as f_object:  
+    with open('aug.csv', 'a', newline='') as f_object:  
         writer_object = writer(f_object)
         
         writer_object.writerow(list_data)  
