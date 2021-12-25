@@ -13,8 +13,8 @@ datagen = ImageDataGenerator(
             fill_mode='constant')
 
 
-images_path = './all_teeth/teeth/valid2'
-out_path = './all_teeth/teeth/augmented/valid2'
+images_path = './all_teeth/teeth/valid'
+out_path = './all_teeth/teeth/augmented/valid'
 for f in glob.glob(os.path.join(images_path, "*")):
 
     x = io.imread(f)
