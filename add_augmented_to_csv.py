@@ -6,15 +6,15 @@ import re
 from csv import writer
 
 
-df = pd.read_csv('dataset_and_augmented.csv', index_col= None)
+df = pd.read_csv('dataset_2_almid.csv', index_col= None)
 df = df.set_index('img')
 
 
 regExp = '\(([^)]+)\)'
 
 # images_path = "./all_teeth/teeth/augmented/train2"
-images_path = "./all_teeth/teeth/augmented/test2"
-# images_path = "./all_teeth/teeth/augmented/valid2"
+# images_path = "./all_teeth/teeth/augmented/test2"
+images_path = "./all_teeth/teeth/augmented/valid2"
 for f in glob.glob(os.path.join(images_path, "*")):
     # print("Processing file: {}".format(f))
     img = cv2.imread(f)
