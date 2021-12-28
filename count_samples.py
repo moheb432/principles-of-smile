@@ -6,7 +6,7 @@ import numpy as np
 
 
 
-df = pd.read_csv('dataset_and_augmented.csv', index_col= None)
+df = pd.read_csv('dataset_2_almid.csv', index_col= None)
 df = df.set_index('img')
 df = df.replace(np.nan, 0)
 
