@@ -8,3 +8,17 @@ All kinds of dataset about teeth.
 - the data is being labed using [dental_AI.ppt](https://docs.google.com/presentation/d/1GACdmOhz4q5GXNtHChhvm9ulD4B5ZWgA/edit#slide=id.p1) special for detemining the [21 principles of smile design](https://drive.google.com/file/d/1zucP6fMgg2g9sCj3GJoZNqDnmvVSxiLD/view)
 - with csv file for the labeling of the data
 - 
+# model used VGG-16
+
+
+
+# GUI
+- the gui is made to apply prediction on a special testing set of our teeths with our names
+- it also previews the image and the predicted problems
+
+![Build Status](https://www.greatdentalexpressions.com/blog/wp-content/uploads/2018/01/BP-diverse-smile.jpeg)
+
+![Build Status](https://www.greatdentalexpressions.com/blog/wp-content/uploads/2018/01/BP-diverse-smile.jpeg)
+
+![Build Status](https://www.greatdentalexpressions.com/blog/wp-content/uploads/2018/01/BP-diverse-smile.jpeg)
+
