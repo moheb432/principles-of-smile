@@ -18,7 +18,7 @@ A total of **682** images of smiley faces and teeth -before and after- were coll
 
 After collecting at least **30** images for each class, the data was labeled according to the [dental_AI.ppt](https://docs.google.com/presentation/d/1GACdmOhz4q5GXNtHChhvm9ulD4B5ZWgA/edit#slide=id.p1) presenetation descibing the aesthetic issues for the mentioned 7 classes. ([csv link](https://docs.google.com/spreadsheets/d/1YaPpBtqj4uY9rEL9IHrajS_NhcxVBa25J1uie6wgkqc/edit?usp=sharing))
 
-![CSV](documentation/csv.png)
+![CSV](documentation/csv.PNG)
 
 
 
