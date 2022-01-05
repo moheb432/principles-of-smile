@@ -74,6 +74,18 @@ The interface offers the doctor uploading the image where it is displayed along 
 
 ![output](documentation/predict.png)
 
+### *GUI Shortcuts*: 
+- ctrl+o to open new image
+- ctrl++ to zoom in
+- ctrl+- to zoomout
+
+### **Prerequisites**:
+- python
+- PyQt5
+- tensorflow 
+- keras
+- numpy
+
 ### Future Work
 -----------------
 - Weighted Loss
