@@ -32,8 +32,7 @@ datagen = ImageDataGenerator(
             horizontal_flip=True,
   ```
 
-![Augmentation](documentation/aug.png =100x100)
-<img src="documentation/aug.png" width="500" height="500">
+![Augmentation](documentation/aug.png)
 
 ## VGG-16 Model with Transfer Learning
 -----------------
