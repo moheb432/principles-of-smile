@@ -76,7 +76,6 @@ The interface offers the doctor uploading the image where it is displayed along 
 
 ### Future Work
 -----------------
-- Model Fusion
 - Weighted Loss
 - Before & after prediction
 
