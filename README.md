@@ -33,6 +33,7 @@ datagen = ImageDataGenerator(
   ```
 
 ![Augmentation](documentation/aug.png =100x100)
+<img src="documentation/aug.png" width="200" height="200">
 
 ## VGG-16 Model with Transfer Learning
 -----------------
