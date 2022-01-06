@@ -82,7 +82,7 @@ The interface offers the doctor uploading the image where it is displayed along 
 ### **Prerequisites**:
 - python
 - PyQt5
-- tensorflow 
+- tensorflow (v 2.70)
 - keras
 - numpy
 
@@ -90,7 +90,6 @@ The interface offers the doctor uploading the image where it is displayed along 
 -----------------
 - Weighted Loss
 - Before & after prediction
-
 
 -----------------
 
